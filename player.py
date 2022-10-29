@@ -94,8 +94,8 @@ def get_move(player, board):
   valid_moves = get_valid_moves(player, board)
   print(evalBoard(board))
   evaluated_moves = []
-  bestMove = 0
-  bestMoveIdx = 0
+  bestMove = -500
+  bestMoveIdx = valid_moves[0]
   for i in valid_moves:
     a = evalBoard(makeMove(board,i,player))
     evaluated_moves.append(a)
@@ -118,7 +118,7 @@ def evalBoard(board):
 def bestMove(board,search_depth):
   if search_depth ==0:
     return evalBoard(board)
-  
+
 def makeMove(board,move,player):
     new_board = copy.deepcopy(board)
     new_board[move[0]][move[1]] = player
