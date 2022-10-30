@@ -1,4 +1,20 @@
-# Python 3 Starter
+# Python AI Othello player Project
+Programed at Atomic Objects AI Games on Saturday October 29th with Rob Don
+
+The AI games was a code-a-
+
+
+To Run:
+1. open Othello_Game_Server in command line.
+2. make sure you have at least java v17
+3. type: "java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui"
+    this starts the Othello server
+4. open new terminal in the AI_GAMES folder window and type "python player.py"
+    this starts our attempt at a minimax AI player
+5. open your browser and search http://localhost:8080 to open the Othello board UI
+
+
+
 Disclaimer: developed with Python 3.7.0, tested with Python 2.7.10 - not guaranteed to work with other versions
 
 ## Instructions
