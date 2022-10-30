@@ -1,5 +1,5 @@
 # Python AI Othello Player Project
-Programed at Atomic Objects AI Games on Saturday October 29th with Rob Don
+Programed at Atomic Objects AI Games on Saturday October 29th with Dat Nguyen and Don Nguyen
 
 The AI games was a code-a-thon to build an AI Othello player, this is our one day project.
 
