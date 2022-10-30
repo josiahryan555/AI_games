@@ -5,9 +5,10 @@ The AI games was a code-a-thon to build an AI Othello player, this is our one da
 
 
 To Run The Project:
-1. open Othello_Game_Server in command line.
+1. open Othello_Game_Server in Command Line or Terminal.
 2. make sure you have at least java v17
-3. type: `java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui`
+        (type `java -version` in Terminal to check your Java version)
+4. type: `java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui`
     this starts the Othello server
 4. open a new terminal tab in the AI_GAMES folder window and type `python player.py` (or `python player.py 1337` if that doesn't work)
     this starts our attempt at a minimax AI player
