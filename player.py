@@ -92,12 +92,12 @@ def get_valid_moves(player, board):
 def get_move(player, board):
   # TODO determine valid moves
   valid_moves = get_valid_moves(player, board)
-  print(evalBoard(board))
+  print(evalBoard(board, player))
   evaluated_moves = []
   bestMove = -500
   bestMoveIdx = valid_moves[0]
   for i in valid_moves:
-    a = evalBoard(makeMove(board,i,player))
+    a = evalBoard(makeMove(board,i,player), player)
     evaluated_moves.append(a)
     if a>bestMove:
       bestMove = a
@@ -105,19 +105,23 @@ def get_move(player, board):
   return bestMoveIdx
 
 
-def evalBoard(board):
+def evalBoard(board, player):
+    if player == 1:
+      enemy = 2
+    else:
+      enemy= 1
     count = 0
     for i in board:
       for j in i:
-          if j == 1:
+          if j == player:
             count+=1
-          if j == 2:
+          if j == enemy:
             count-=1
     return count
 
-def bestMove(board,search_depth):
-  if search_depth ==0:
-    return evalBoard(board)
+# def bestMove(board,search_depth):
+#   if search_depth ==0:
+#     return evalBoard(board)
 
 def makeMove(board,move,player):
     new_board = copy.deepcopy(board)
