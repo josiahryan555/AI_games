@@ -7,14 +7,15 @@ I had never met my teammates before the competition. We had to learn to work tog
 This is our one day project:
 
 ## To Run The Project
-1. open Othello_Game_Server in Command Line or Terminal.
-2. make sure you have at least java v17
+1. download project
+2. open Othello_Game_Server in Command Line or Terminal.
+3. make sure you have at least java v17
         (type `java -version` in Terminal to check your Java version)
 4. type: `java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui`
     this starts the Othello server
-4. open a new terminal tab in the AI_GAMES folder window and type `python player.py` (or `python player.py 1337` if that doesn't work)
+5. open a new terminal tab in the AI_GAMES folder window and type `python player.py` (or `python player.py 1337` if that doesn't work)
     this starts our attempt at a minimax AI player
-5. open your browser and search http://localhost:8080 to open the Othello board UI
+6. open your browser and search http://localhost:8080 to open the Othello board UI
 
 ## Files Explained
 * first_move_picker.py was our first completed AI.  It creates a list of all valid moves, then picks the first one.
