@@ -1,7 +1,10 @@
 # Python AI Othello Player Project
 Programed at Atomic Objects AI Games in October, 2022 with [Dat Nguyen](https://github.com/imtiendat0311) and [Don Nguyen](https://github.com/nhutu1911)
 
-We participated in [Atomic Object](https://www.atomicobject.com/)'s AI Games, an 8 hour code-a-thon in teams. We were given 8 hours to design an AI Othello player. This is our one day project:
+We participated in [Atomic Object](https://www.atomicobject.com/)'s 2022 AI Games: an 8 hour code-a-thon in teams of 2-3 people. We were given 8 hours to design an AI Othello player. 
+We did not all know each other at the start of this challenge. We had to learn to work together to do our best work. It was a learning experience in programming ability as well as teamwork in a fast based environment.
+
+This is our one day project:
 
 ## To Run The Project
 1. open Othello_Game_Server in Command Line or Terminal.
