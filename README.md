@@ -1,5 +1,5 @@
 # Python AI Othello Player Project
-Programed at Atomic Objects AI Games in October, 2022 with [Dat Nguyen](https://github.com/imtiendat0311) and Don Nguyen
+Programed at Atomic Objects AI Games in October, 2022 with [Dat Nguyen](https://github.com/imtiendat0311) and [Don Nguyen](https://github.com/nhutu1911)
 
 The AI games was a code-a-thon to build an AI Othello player, this is our one day project.
 
