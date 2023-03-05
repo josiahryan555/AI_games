@@ -10,7 +10,7 @@ This is our one day project:
 1. download project
 2. open Othello_Game_Server in Command Line or Terminal.
 3. make sure you have at least java v17
-        (type `java -version` in Terminal to check your Java version)
+        (type `java --version` in Terminal to check your Java version)
 4. type: `java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui`
     this starts the Othello server
 5. open a new terminal tab in the AI_GAMES folder window and type `python player.py` (or `python player.py 1337` if that doesn't work)
