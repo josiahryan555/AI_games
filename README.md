@@ -6,7 +6,7 @@ I had never met my teammates before the competition. We had to learn to work tog
 
 This is our one day project:
 
-## To Run The Project
+## To Run The Project (this might not be working right now  ¯\_(ツ)_/¯
 1. download project
 2. open Othello_Game_Server in Command Line or Terminal.
 3. make sure you have at least java v17
