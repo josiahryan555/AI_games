@@ -3,6 +3,13 @@ Programed at Atomic Objects AI Games on Saturday October 29th with Dat Nguyen an
 
 The AI games was a code-a-thon to build an AI Othello player, this is our one day project.
 
+TODO:
+-add "what I learned/experience section?
+-put Web Dev projects in a folder together
+-comment our code
+-finish readme
+-new implimentation of AI
+
 ## To Run The Project:
 1. open Othello_Game_Server in Command Line or Terminal.
 2. make sure you have at least java v17
